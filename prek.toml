@@ -1,0 +1,10 @@
+[[repos]]
+repo = "https://github.com/commitizen-tools/commitizen"
+rev = "v4.20.1"
+[[repos.hooks]]
+id = "commitizen"
+additional_dependencies = ["cz-conventional-gitmoji"]
+[[repos.hooks]]
+id = "commitizen-branch"
+additional_dependencies = ["cz-conventional-gitmoji"]
+stages = ["pre-push"]
